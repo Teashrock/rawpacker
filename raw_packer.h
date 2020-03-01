@@ -3,12 +3,12 @@
 #ifndef RAW_PACKER_H
 #define RAW_PACKER_H
 
-#include "error_list.h"
-#include "error_macros.h"
-#include "io/marshalls.h"
-#include "reference.h"
-#include "ustring.h"
-#include "variant.h"
+#include "core/error_list.h"
+#include "core/error_macros.h"
+#include "core/io/marshalls.h"
+#include "core/reference.h"
+#include "core/core/ustring.h"
+#include "core/variant.h"
 
 class RawPacker : public Reference {
     OBJ_TYPE(RawPacker,Reference);
